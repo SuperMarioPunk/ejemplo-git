@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Testing make command
-        run: make test2
+        run: docker
