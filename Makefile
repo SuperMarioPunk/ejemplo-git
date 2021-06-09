@@ -10,6 +10,9 @@ build:
 
 run:
 	docker-compose up
+	
+test2:
+	echo "funciona"
 
 migrate:
 	$(COMMAND) 'cd botwa; ./manage.py migrate --database=database1; done'
